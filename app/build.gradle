@@ -4,11 +4,11 @@ android {
     compileSdkVersion 31
     buildToolsVersion "32.0.0"
     defaultConfig {
-        applicationId "cn.edu.hubu.fivechess"
+        applicationId "com.lucking.shine.tiamshow"
         minSdkVersion 21
         targetSdkVersion 31
-        versionCode 1
-        versionName "1.0"
+        versionCode 2843
+        versionName "2.4.3"
         testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
     }
     buildTypes {

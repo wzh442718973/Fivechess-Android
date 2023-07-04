@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FiveChess</string>
+    <string name="app_name">7 Times Pro</string>
     <string name="game_start_black">Black\nStart</string>
     <string name="game_start_white">White\nStart</string>
     <string name="player_black">MY</string>

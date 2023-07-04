@@ -11,7 +11,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="cn.edu.hubu.fivechess.MainActivity">
+    tools:context="com.lucking.shine.tiamshow.MainActivity">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -89,7 +89,7 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-    <cn.edu.hubu.fivechess.ChessView
+    <com.lucking.shine.tiamshow.ChessView
         android:id="@+id/chessView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

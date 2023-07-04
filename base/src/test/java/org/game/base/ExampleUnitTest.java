@@ -1,4 +1,4 @@
-package org.game.base;
+package com.lucking.shine.supppe;
 
 import org.junit.Test;
 
