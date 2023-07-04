@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.drawable.Drawable;
 import android.media.AudioManager;
 import android.media.SoundPool;
 import android.os.Bundle;
@@ -32,6 +33,20 @@ import java.util.List;
 
 public class ChessView extends View {
 
+    public interface CallBack {
+        void onPlayer(boolean black);
+
+        void onStart(boolean black);
+
+        void onEnd(int statue);
+    }
+
+    private CallBack callBack;
+
+    public void setCallBack(CallBack callBack) {
+        this.callBack = callBack;
+        callBack.onStart(isBlack);
+    }
 
     private int mPanelWidth;
     private static int MAX_LINE = 15;
@@ -53,6 +68,8 @@ public class ChessView extends View {
     private IPlayer aiPlayer; //电脑
     private IChessboard chessboard = new ChessBoard(MAX_LINE);//棋盘
 
+    Drawable select = null;
+
 
     public ChessView(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -63,6 +80,7 @@ public class ChessView extends View {
         blackChess = BitmapFactory.decodeResource(resources, R.drawable.stone_b1);
         whiteChess = BitmapFactory.decodeResource(resources, R.drawable.stone_w2);
 
+        select = resources.getDrawable(R.drawable.baseline_point_24);
         initPaint();
         initGame();
     }
@@ -80,12 +98,12 @@ public class ChessView extends View {
         humanPlayer.clear();
         aiPlayer.clear();
 
-        soundWin = new SoundPool(1, AudioManager.STREAM_SYSTEM,0);
-        soundDefeat = new SoundPool(1, AudioManager.STREAM_SYSTEM,0);
-        soundChess = new SoundPool(1,AudioManager.STREAM_SYSTEM,0);
-        soundWin.load(getContext(),R.raw.win,1);
-        soundDefeat.load(getContext(),R.raw.defeat,1);
-        soundChess.load(getContext(),R.raw.chess,1);
+        soundWin = new SoundPool(1, AudioManager.STREAM_SYSTEM, 0);
+        soundDefeat = new SoundPool(1, AudioManager.STREAM_SYSTEM, 0);
+        soundChess = new SoundPool(1, AudioManager.STREAM_SYSTEM, 0);
+        soundWin.load(getContext(), R.raw.win, 1);
+        soundDefeat.load(getContext(), R.raw.defeat, 1);
+        soundChess.load(getContext(), R.raw.chess, 1);
     }
 
     private void initPaint() {
@@ -105,14 +123,14 @@ public class ChessView extends View {
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
         int heightModel = MeasureSpec.getMode(heightMeasureSpec);
 
-        int size = 0;
-        if (widthModel == MeasureSpec.UNSPECIFIED) {
-            size = heightSize;
-        } else if (heightModel == MeasureSpec.UNSPECIFIED) {
-            size = widthSize;
-        } else {
-            size = Math.min(widthSize, heightSize);
-        }
+        int size = Math.min(widthSize, heightSize);
+//        if (widthModel == MeasureSpec.UNSPECIFIED) {
+//            size = heightSize;
+//        } else if (heightModel == MeasureSpec.UNSPECIFIED) {
+//            size = widthSize;
+//        } else {
+//            size = Math.min(widthSize, heightSize);
+//        }
         setMeasuredDimension(size, size);
     }
 
@@ -126,6 +144,10 @@ public class ChessView extends View {
 
         whiteChess = Bitmap.createScaledBitmap(whiteChess, pieceWidth, pieceWidth, false);
         blackChess = Bitmap.createScaledBitmap(blackChess, pieceWidth, pieceWidth, false);
+
+        if (select != null) {
+            select.setBounds(0, 0, pieceWidth + 3, pieceWidth + 3);
+        }
     }
 
     @Override
@@ -137,17 +159,23 @@ public class ChessView extends View {
     }
 
     private void drawPieces(Canvas canvas) {
+        if (lastPoint != null && select != null) {
+            Log.e("wzh", "point: " + lastPoint);
+
+            float x = (lastPoint.x + (1 - pieceLineHeight) / 2) * mLineHeight;
+            float y = (lastPoint.y + (1 - pieceLineHeight) / 2) * mLineHeight;
+
+            canvas.save();
+            canvas.translate(x, y);
+            select.draw(canvas);
+            canvas.restore();
+        }
+
         for (Point point : humanPlayer.getMyPoints()) {
-            canvas.drawBitmap(isBlack ? blackChess : whiteChess,
-                    (point.x + (1 - pieceLineHeight) / 2) * mLineHeight,
-                    (point.y + (1 - pieceLineHeight) / 2) * mLineHeight,
-                    null);
+            canvas.drawBitmap(isBlack ? blackChess : whiteChess, (point.x + (1 - pieceLineHeight) / 2) * mLineHeight, (point.y + (1 - pieceLineHeight) / 2) * mLineHeight, null);
         }
         for (Point point : aiPlayer.getMyPoints()) {
-            canvas.drawBitmap(!isBlack ? blackChess : whiteChess,
-                    (point.x + (1 - pieceLineHeight) / 2) * mLineHeight,
-                    (point.y + (1 - pieceLineHeight) / 2) * mLineHeight,
-                    null);
+            canvas.drawBitmap(!isBlack ? blackChess : whiteChess, (point.x + (1 - pieceLineHeight) / 2) * mLineHeight, (point.y + (1 - pieceLineHeight) / 2) * mLineHeight, null);
         }
     }
 
@@ -175,7 +203,7 @@ public class ChessView extends View {
             int y = (int) (event.getY() / mLineHeight);
 
             if (x >= 0 && x < MAX_LINE && y >= 0 && y < MAX_LINE) {
-                onPoint(x,y);
+                onPoint(x, y);
             }
             return true;
         } else if (action == MotionEvent.ACTION_DOWN) {
@@ -184,18 +212,20 @@ public class ChessView extends View {
         return super.onTouchEvent(event);
     }
 
-    private void onPoint(int x,int y){
-        if(isWin){
+    private Point lastPoint = null;
+
+    private void onPoint(int x, int y) {
+        if (isWin) {
             return;
         }
-        Point point = new Point(x,y);
-        if(chessboard.getFreePoints().contains(point)){
-            humanPlayer.run(aiPlayer.getMyPoints(),point);
+        Point point = new Point(x, y);
+        if (chessboard.getFreePoints().contains(point)) {
+            lastPoint = humanPlayer.run(aiPlayer.getMyPoints(), point);
             invalidate();
-            soundChess.play(1,1, 1, 0, 0, 1);
+            soundChess.play(1, 1, 1, 0, 0, 1);
             checkWin(true);
-            if(!isWin){
-                aiPlayer.run(humanPlayer.getMyPoints(),null);
+            if (!isWin) {
+                lastPoint = aiPlayer.run(humanPlayer.getMyPoints(), null);
                 invalidate();
                 checkWin(false);
             }
@@ -203,77 +233,87 @@ public class ChessView extends View {
     }
 
 
-
-
-    private void checkWin(boolean player){
-
-        if (player && humanPlayer.hasWin()) {
+    private void checkWin(boolean black) {
+        if (black && humanPlayer.hasWin()) {
+            callBack.onEnd(1);
             isWin = true;
-            soundWin.play(1,1, 1, 0, 0, 1);
-            alert("你赢了！");
+            soundWin.play(1, 1, 1, 0, 0, 1);
+            alert(getContext().getString(R.string.tip_you_won));
         }
-        if(!player && aiPlayer.hasWin()){
+        if (!black && aiPlayer.hasWin()) {
+            callBack.onEnd(-1);
             isWin = true;
-            soundDefeat.play(1,1, 1, 0, 0, 1);
-            alert("你输了！");
+            soundDefeat.play(1, 1, 1, 0, 0, 1);
+            alert(getContext().getString(R.string.tip_you_lost));
         }
         if (chessboard.getFreePoints().isEmpty()) {
             isWin = true;
-            alert("和棋！");
+            callBack.onEnd(0);
+            alert(getContext().getString(R.string.tip_you_draw));
         }
     }
 
 
-
-    private void alert(String msg){
+    private void alert(String msg) {
         AlertDialog.Builder builder = new AlertDialog.Builder(getContext());
-        builder.setTitle("提示");
+        builder.setTitle(R.string.app_name);
         builder.setMessage(msg);
-        builder.setPositiveButton("确定", new DialogInterface.OnClickListener() {
+        builder.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
                 dialogInterface.dismiss();
             }
         });
-        builder.setNegativeButton("重新开局", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                isWin = false;
-                dialogInterface.dismiss();
-                clear();
-            }
-        });
+//        builder.setNegativeButton("重新开局", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialogInterface, int i) {
+//                isWin = false;
+//                dialogInterface.dismiss();
+//                clear();
+//            }
+//        });
         AlertDialog dialog = builder.create();
         dialog.show();
     }
 
-    public synchronized void startBlack(){
+    public synchronized void startBlack() {
         isBlack = true;
         clear();
+
+        callBack.onStart(true);
     }
 
-    public synchronized void startWhite(){
-        isBlack = false;
+    public synchronized void startWhite() {
+        isBlack = true;
         clear();
+        callBack.onStart(false);
+
+        Point point = new Point(MAX_LINE / 2, MAX_LINE / 2);
+        lastPoint = point;
+        aiPlayer.getMyPoints().add(point);
+        chessboard.getFreePoints().remove(point);
+        invalidate();
     }
 
-    private void clear(){
+    private void clear() {
         isWin = false;
+        lastPoint = null;
         chessboard.clear();
         aiPlayer.clear();
         humanPlayer.clear();
         //我方是白棋，电脑第一个棋子一定下在正中心
-        if(!isBlack){
-            Point point = new Point(MAX_LINE/2, MAX_LINE/2);
+        if (!isBlack) {
+            Point point = new Point(MAX_LINE / 2, MAX_LINE / 2);
+            lastPoint = point;
             aiPlayer.getMyPoints().add(point);
             chessboard.getFreePoints().remove(point);
         }
         invalidate();
     }
 
-    public synchronized void back(){
+    public synchronized void back() {
         //悔棋
-        if(!humanPlayer.getMyPoints().isEmpty()&&!aiPlayer.getMyPoints().isEmpty()){
+        if (!humanPlayer.getMyPoints().isEmpty() && !aiPlayer.getMyPoints().isEmpty()) {
             LinkedList<Point> list1 = (LinkedList<Point>) humanPlayer.getMyPoints();
             LinkedList<Point> list2 = (LinkedList<Point>) aiPlayer.getMyPoints();
             Point p1 = list1.removeLast();
@@ -296,10 +336,10 @@ public class ChessView extends View {
     @Override
     protected Parcelable onSaveInstanceState() {
         Bundle bundle = new Bundle();
-        Log.d("ChessView","保存棋局");
-        bundle.putParcelable(instance,super.onSaveInstanceState());
-        bundle.putBoolean(win,isWin);
-        bundle.putBoolean(black,isBlack);
+        Log.d("ChessView", "保存棋局");
+        bundle.putParcelable(instance, super.onSaveInstanceState());
+        bundle.putBoolean(win, isWin);
+        bundle.putBoolean(black, isBlack);
         bundle.putSerializable(human, (Serializable) humanPlayer.getMyPoints());
         bundle.putSerializable(ai, (Serializable) aiPlayer.getMyPoints());
         return bundle;
@@ -307,9 +347,9 @@ public class ChessView extends View {
 
     @Override
     protected void onRestoreInstanceState(Parcelable state) {
-        if(state instanceof Bundle){
-            Log.d("ChessView","加载棋局");
-            Bundle bundle = (Bundle)state;
+        if (state instanceof Bundle) {
+            Log.d("ChessView", "加载棋局");
+            Bundle bundle = (Bundle) state;
             isWin = bundle.getBoolean(win);
             isBlack = bundle.getBoolean(black);
             chessboard = new ChessBoard(MAX_LINE);
@@ -321,10 +361,10 @@ public class ChessView extends View {
             List<Point> aiPoints = (List<Point>) bundle.getSerializable(ai);
             humanPlayer.getMyPoints().addAll(humanPoints);
             aiPlayer.getMyPoints().addAll(aiPoints);
-            for(Point point:humanPoints){
+            for (Point point : humanPoints) {
                 chessboard.getFreePoints().remove(point);
             }
-            for(Point point:aiPoints){
+            for (Point point : aiPoints) {
                 chessboard.getFreePoints().remove(point);
             }
             super.onRestoreInstanceState(bundle.getParcelable(instance));

@@ -787,7 +787,7 @@ public class BaseComputerAi extends BasePlayer {
 
     //下棋子，对外接口
     @Override
-    public void run(List<Point> humans, Point p) {
+    public Point run(List<Point> humans, Point p) {
         //把人类下的最后一步棋子去除
         allFreePoints.remove(humans.get(humans.size() - 1));
         //电脑可以下的一步棋子
@@ -804,5 +804,7 @@ public class BaseComputerAi extends BasePlayer {
         allFreePoints.remove(result);
         //加入到电脑棋子中，下棋了
         myPoints.add(result);
+
+        return result;
     }
 }

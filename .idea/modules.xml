@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FiveChess.iml" filepath="$PROJECT_DIR$/FiveChess.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fivechess-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/Fivechess-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.unitTest.iml" />
     </modules>
   </component>
 </project>

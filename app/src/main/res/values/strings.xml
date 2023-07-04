@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">FiveChess</string>
+    <string name="game_start_black">Black\nStart</string>
+    <string name="game_start_white">White\nStart</string>
+    <string name="player_black">MY</string>
+    <string name="player_white">PC</string>
+    <string name="tip_you_won">You won!!!</string>
+    <string name="tip_you_lost">You lost!!!</string>
+    <string name="tip_you_draw">stalemate !!!</string>
+
+    <string name="record_won">You Won</string>
+    <string name="record_lost">You Lost</string>
+    <string name="record_draw">You Draw</string>
 </resources>
