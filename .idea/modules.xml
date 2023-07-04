@@ -3,10 +3,34 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Fivechess-Android.iml" filepath="$PROJECT_DIR$/.idea/modules/Fivechess-Android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.iml" filepath="$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.main.iml" filepath="$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/aj/Fivechess-Android.aj.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Fivechess-Android.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.main.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/base/Fivechess-Android.base.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.iml" filepath="$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/fcm/Fivechess-Android.fcm.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.iml" filepath="$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.main.iml" filepath="$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/jpush/Fivechess-Android.jpush.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.iml" filepath="$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/spp/Fivechess-Android.spp.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.iml" filepath="$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/zalo/Fivechess-Android.zalo.unitTest.iml" />
     </modules>
   </component>
 </project>

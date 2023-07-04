@@ -4,10 +4,18 @@ buildscript {
     repositories {
         google()
         jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+        maven { url 'https://jitpack.io' }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:7.2.2'
-
+//        classpath 'com.github.ben-manes:gradle-versions-plugin:0.13.0'
+//        classpath 'io.fabric.tools:gradle:1.22.0'
+        classpath 'com.github.megatronking.stringfog:gradle-plugin:2.2.1'
+        // 选用加解密算法库，默认实现了xor和aes-cbc两种简单算法，也可以使用自己的加解密库。
+        classpath 'com.github.megatronking.stringfog:xor:1.1.0'
+        classpath 'com.google.gms:google-services:4.3.14'
+        classpath "com.github.CodingGay:BlackObfuscator-ASPlugin:3.7"
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
@@ -17,6 +25,13 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url "https://jitpack.io" }
+        maven { url 'https://maven.fabric.io/public' }
+
+//        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven {
+            url "https://artifactory.paytm.in/libs-release-local"
+        }
     }
 }
 

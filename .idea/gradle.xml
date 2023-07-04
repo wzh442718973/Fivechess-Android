@@ -11,7 +11,13 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/aj" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/base" />
+            <option value="$PROJECT_DIR$/fcm" />
+            <option value="$PROJECT_DIR$/jpush" />
+            <option value="$PROJECT_DIR$/spp" />
+            <option value="$PROJECT_DIR$/zalo" />
           </set>
         </option>
       </GradleProjectSettings>
