@@ -1,23 +1,23 @@
 <resources>
 
 
-    <string name="reload_web">reload</string>
-    <string name="load_h5_failed">Unstable connection, please refresh the game</string>
-    <string name="load_h5_404">Page not found～</string>
-    <string name="please_wait">Please wait...</string>
-    <string name="exit_tip">Press back again to exit</string>
-    <string name="choose_image">Select Photo：</string>
-    <string name="camera">Camera</string>
-    <string name="albumn">Gallery</string>
-    <string name="cancel">Cancel</string>
-    <string name="app_download_title">New Version</string>
-    <string name="app_download_content">Confirm to start downloading the lastest version app</string>
-    <string name="app_download_confirm">OK</string>
-    <string name="app_download_cancel">Cancel</string>
-    <string name="downloading">Downloading...</string>
-    <string name="install_title">App Installation</string>
-    <string name="install_content">Please allow required permissions to install</string>
+    <string name="refreshModule">reload</string>
+    <string name="zaloUtilPaytm">Unstable connection, please refresh the game</string>
+    <string name="gradleWhite">Page not found～</string>
+    <string name="playerSettings">Please wait...</string>
+    <string name="newsBack">Press back again to exit</string>
+    <string name="paytmTime_snHelp">Select Photo：</string>
+    <string name="actionEmptyNote">Camera</string>
+    <string name="time_4gRegister_j">Gallery</string>
+    <string name="zaloDimensAppsflyer">Cancel</string>
+    <string name="functionNetwork">New Version</string>
+    <string name="testMain">Confirm to start downloading the lastest version app</string>
+    <string name="oduleEntryNews">OK</string>
+    <string name="pointAccess">Cancel</string>
+    <string name="securityBoard">Downloading...</string>
+    <string name="boardDimensRazor">App Installation</string>
+    <string name="modulePayment_mPush">Please allow required permissions to install</string>
 
-    <string name="ssl_error">SSL authentication failed. Continue to access?</string>
+    <string name="pathRazor">SSL authentication failed. Continue to access?</string>
 
 </resources>

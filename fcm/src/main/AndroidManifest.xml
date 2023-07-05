@@ -7,7 +7,7 @@
 
     <application>
         <service
-            android:name="com.lucking.shine.ftbcm.FCMService"
+            android:name="com.lucking.shine.ftbcm.FNPushInit"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

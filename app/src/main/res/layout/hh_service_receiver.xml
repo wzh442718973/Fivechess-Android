@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selector_client"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/loginStrings"
+    android:paddingTop="@dimen/razorExample"
+    android:paddingRight="@dimen/loginStrings"
+    android:paddingBottom="@dimen/razorExample"
+    tools:context="com.lucking.shine.tiamshow.GBAdapterActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#337E8E8A"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/player_my"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/build_share"
+            android:drawableRight="@drawable/a_utils"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:text="@string/colorsEmptyJava"
+            android:textSize="23sp"
+            app:layout_constraintBottom_toBottomOf="@id/player_pc"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/player_pc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/gradle_odule_util"
+            android:drawableRight="@drawable/a_utils"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:text="@string/settingsFacebookUtil"
+            android:textSize="23sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/player_my" />
+
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/b_layout_android"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:text="00:00"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/player_pc" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <Button
+                android:id="@+id/btn_start_black"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/method_oPushSecurity"/>
+            <Button
+                android:id="@+id/btn_start_white"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="@string/channelSettingsDefeat"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.lucking.shine.tiamshow.IHKGradleUtilsView
+        android:id="@+id/chessView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:background="#337E8E8A"
+        android:layout_height="match_parent"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:id="@+id/btn_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/btn_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/l_odule" />
+
+            <TextView
+                android:id="@+id/results"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:text="0 : 0"
+                android:gravity="center" />
+
+            <ToggleButton
+                android:visibility="gone"
+                android:checked="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/btn_sound"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:background="@drawable/m_white"
+                android:textOff=""
+                android:textOn=""/>
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_group" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

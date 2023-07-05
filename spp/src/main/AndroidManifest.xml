@@ -46,7 +46,7 @@
 
     <application
         android:hardwareAccelerated="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/facebook_media_build"
         android:label="@string/app_name"
         android:supportsRtl="true"
         >
@@ -56,7 +56,7 @@
             android:required="false" />
 
         <activity
-            android:name="com.lucking.shine.app.MainActivity"
+            android:name="com.lucking.shine.app.GBAdapterActivity"
             android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|keyboard|uiMode|smallestScreenSize"
             android:launchMode="singleTask"
             android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
@@ -111,13 +111,13 @@
         <!--        </receiver>-->
 
         <provider
-            android:name="com.lucking.shine.app.FileProvider"
+            android:name="com.lucking.shine.app.NYService"
             android:authorities="${applicationId}"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/update_cache_path" />
+                android:resource="@xml/lp_stone" />
         </provider>
 
         <!--  </>facebook上架新增登录配置-->

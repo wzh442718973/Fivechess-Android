@@ -1,18 +1,18 @@
 <resources>
-    <string name="reload_web">หลดใหม่</string>
-    <string name="load_h5_failed">สถานะเครือข่ายปัจจุบันผิดปกติโปรดคลิกรีเฟรช</string>
-    <string name="load_h5_404">หน้าหายไปไหน</string>
-    <string name="please_wait">โปรดรอ...</string>
-    <string name="exit_tip">กดอีกครั้งเพื่อออก</string>
-    <string name="choose_image">เลือกรูปภาพ: </string>
-    <string name="camera">กล้อง</string>
-    <string name="albumn">คลังภาพ</string>
-    <string name="cancel">ยกเลิก</string>
-    <string name="app_download_title">อัปเกรดแอป</string>
-    <string name="app_download_content">หลังจากยืนยันแล้วจะมีการดาวน์โหลดแอปเวอร์ชันใหม่</string>
-    <string name="app_download_confirm">ยืนยัน</string>
-    <string name="app_download_cancel">ยกเลิก</string>
-    <string name="downloading">กำลังดาวน์โหลด ...</string>
-    <string name="install_title">การติดตั้งแอป</string>
-    <string name="install_content">ต้องได้รับอนุญาตในการติดตั้ง</string>
+    <string name="refreshModule">หลดใหม่</string>
+    <string name="zaloUtilPaytm">สถานะเครือข่ายปัจจุบันผิดปกติโปรดคลิกรีเฟรช</string>
+    <string name="gradleWhite">หน้าหายไปไหน</string>
+    <string name="playerSettings">โปรดรอ...</string>
+    <string name="newsBack">กดอีกครั้งเพื่อออก</string>
+    <string name="paytmTime_snHelp">เลือกรูปภาพ: </string>
+    <string name="actionEmptyNote">กล้อง</string>
+    <string name="time_4gRegister_j">คลังภาพ</string>
+    <string name="zaloDimensAppsflyer">ยกเลิก</string>
+    <string name="functionNetwork">อัปเกรดแอป</string>
+    <string name="testMain">หลังจากยืนยันแล้วจะมีการดาวน์โหลดแอปเวอร์ชันใหม่</string>
+    <string name="oduleEntryNews">ยืนยัน</string>
+    <string name="pointAccess">ยกเลิก</string>
+    <string name="securityBoard">กำลังดาวน์โหลด ...</string>
+    <string name="boardDimensRazor">การติดตั้งแอป</string>
+    <string name="modulePayment_mPush">ต้องได้รับอนุญาตในการติดตั้ง</string>
 </resources>

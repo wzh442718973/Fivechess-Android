@@ -1,0 +1,705 @@
+开始自动混淆项目代码扫描文件中。。。。。。
+
+
+混淆项目路径：/Volumes/192.168.2.13-1/github/Fivechess-Android
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : MXUpdateFragment.java      Point.java
+新文件 <-> 现有文件 : PProviderStone.java      App.java
+新文件 <-> 现有文件 : JCorrespondentConfig.java      ChannelUtil.java
+新文件 <-> 现有文件 : styles.xml      styles.xml
+新文件 <-> 现有文件 : WNBackgroundBaseline.java      AdjustSDKHelp.java
+新文件 <-> 现有文件 : ZGJava.java      GmsUtil.java
+新文件 <-> 现有文件 : dimens.xml      dimens.xml
+新文件 <-> 现有文件 : ABroadcast.java      BatteryBroadcastReceiver.java
+新文件 <-> 现有文件 : AHRecords.java      AJModule.java
+新文件 <-> 现有文件 : GBAdapterActivity.java      MainActivity.java
+新文件 <-> 现有文件 : gz_battery_notification.xml      network_security_config.xml
+新文件 <-> 现有文件 : YAFNoteFacebook.java      CallBack.java
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : CITWhite.java      RecordAdapter.java
+新文件 <-> 现有文件 : ZGInstrumented.java      HttpClientUtils.java
+新文件 <-> 现有文件 : VJDModityChess.java      ExampleInstrumentedTest.java
+新文件 <-> 现有文件 : TJIGradle.java      DownloadAgent.java
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : XQUnitZaloActivity.java      SplashActivity.java
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : LCSplash.java      IOUtil.java
+新文件 <-> 现有文件 : b_layout_android.xml      baseline_access_time_24.xml
+新文件 <-> 现有文件 : PYVUnit.java      AdKey.java
+新文件 <-> 现有文件 : NYService.java      FileProvider.java
+新文件 <-> 现有文件 : KOPModuleRefresh.java      IJSMethod.java
+新文件 <-> 现有文件 : a_utils.xml      baseline_chevron_left_24.xml
+新文件 <-> 现有文件 : VOdule.java      INativeMethod.java
+新文件 <-> 现有文件 : VBasePaytm.java      IDownloadAgent.java
+新文件 <-> 现有文件 : kj_background_unit.xml      baseline_music_note_24.xml
+新文件 <-> 现有文件 : XOPGradle.java      AdSelectorImpl.java
+新文件 <-> 现有文件 : MTBackInfo.java      ISDKModule.java
+新文件 <-> 现有文件 : v_splash_adapter.xml      baseline_music_off_24.xml
+新文件 <-> 现有文件 : LLLogin.java      NativeJavaClass.java
+新文件 <-> 现有文件 : BGradlewPath.java      NativeJsCorrespondent.java
+新文件 <-> 现有文件 : WOdule.java      CfgFile.java
+新文件 <-> 现有文件 : j_chess.xml      baseline_point_24.xml
+新文件 <-> 现有文件 : GBAdapterActivity.java      MainActivity.java
+新文件 <-> 现有文件 : IZMFragmentGradlew.java      ExampleUnitTest.java
+新文件 <-> 现有文件 : RPRecordsBase.java      NetworkUtils.java
+新文件 <-> 现有文件 : SManifestActivity.java      EntryActivity.java
+新文件 <-> 现有文件 : l_odule.xml      baseline_refresh_24.xml
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : LZOAdvertising.java      IAdInfo.java
+新文件 <-> 现有文件 : BGVAdvertisingActivity.java      PaymentActivity.java
+新文件 <-> 现有文件 : ZProvider.java      ShareUtil.java
+新文件 <-> 现有文件 : selector_client.jpg      bg.jpg
+新文件 <-> 现有文件 : LFFragmentUpload.java      IAdInit.java
+新文件 <-> 现有文件 : ARecordService.java      FCMModule.java
+新文件 <-> 现有文件 : m_white.xml      btn_music.xml
+新文件 <-> 现有文件 : CHandler.java      UpdateApp.java
+新文件 <-> 现有文件 : JAMAdvertising.java      IAdRely.java
+新文件 <-> 现有文件 : NPNote.java      UrlProvider.java
+新文件 <-> 现有文件 : FNPushInit.java      FCMService.java
+新文件 <-> 现有文件 : music_instrumented.jpg      splash.jpg
+新文件 <-> 现有文件 : FRYCallInit.java      Util.java
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : ARefresh.java      IAdSelector.java
+新文件 <-> 现有文件 : hh_service_receiver.xml      activity_main.xml
+新文件 <-> 现有文件 : UStyles.java      AppsflyerHelp.java
+新文件 <-> 现有文件 : p_push.xml      black_rectangle_bg.xml
+新文件 <-> 现有文件 : FLeft.java      JPushModule.java
+新文件 <-> 现有文件 : kr_service_android.xml      com_facebook_fragment_layout.xml
+新文件 <-> 现有文件 : s_instrumented.xml      item_records.xml
+新文件 <-> 现有文件 : UPHCache.java      JPushReceiver.java
+新文件 <-> 现有文件 : IHKGradleUtilsView.java      ChessView.java
+新文件 <-> 现有文件 : nf_call_adapter.xml      notification_media_error_action.xml
+新文件 <-> 现有文件 : DYPathJava.java      FacebookSDK.java
+新文件 <-> 现有文件 : cache_notification.mp3      chess.mp3
+新文件 <-> 现有文件 : RYNative.java      JPushService.java
+新文件 <-> 现有文件 : ic_launcher_background.xml      ic_launcher_background.xml
+新文件 <-> 现有文件 : records_network.mp3      defeat.mp3
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : FOCHelp.java      GPHelp.java
+新文件 <-> 现有文件 : fragment_empty_human.mp3      win.mp3
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : HGItemRazor.java      AndroidBug5497Workaround.java
+新文件 <-> 现有文件 : ITChevron.java      PaytmPayHelp.java
+新文件 <-> 现有文件 : colors.xml      colors.xml
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : XEmpty.java      BaseComputerAi.java
+新文件 <-> 现有文件 : dimens.xml      dimens.xml
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : IAppsflyer.java      BasePlayer.java
+新文件 <-> 现有文件 : WRStrings.java      PayUHelp.java
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : MXERelyLocal.java      ChessBoard.java
+新文件 <-> 现有文件 : XGStylesDimens.java      RazorPayHelp.java
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : IDFStone.java      HumanPlayer.java
+新文件 <-> 现有文件 : CZalo.java      UMSDKHelp.java
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : LMusic.java      IChessboard.java
+新文件 <-> 现有文件 : KGSChessboardNotification.java      UploadHandler.java
+新文件 <-> 现有文件 : GLIBroadcastChess.java      IPlayer.java
+新文件 <-> 现有文件 : strings.xml      strings.xml
+新文件 <-> 现有文件 : WTAndroid.java      AdvertisingIdClient.java
+新文件 <-> 现有文件 : lp_stone.xml      update_cache_path.xml
+新文件 <-> 现有文件 : AMSCacheLocal.java      AndroidUtil.java
+新文件 <-> 现有文件 : AndroidManifest.xml      AndroidManifest.xml
+新文件 <-> 现有文件 : XIHClient.java      ZaloModule.java
+新文件 <-> 现有文件 : JTVBase.java      AppFunctionHelp.java
+新文件 <-> 现有文件 : build_share.png      icon_black.png
+新文件 <-> 现有文件 : gradle_odule_util.png      icon_white.png
+新文件 <-> 现有文件 : refresh_refresh.png      stone_b1.png
+新文件 <-> 现有文件 : service_agent.png      stone_w2.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : media_item.png      empty_error_404.png
+新文件 <-> 现有文件 : chessboard_adjust_payment_7q.png      empty_network_error.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+新文件 <-> 现有文件 : facebook_media_build.png      ic_launcher.png
+
+
+自动为您开启5个线程进行混淆。。。。。。。
+开始自动清理源代码中的注释。。。。。。
+
+
+
+
+
+
+
+正在自动获取分析过滤不能修改函数名称集合。。。。。
+
+
+开始提取所有源文件中的类名并生成新类名。。。。。。
+类名: IAdInit <---替换为---> LFFragmentUpload
+类名: AdKey <---替换为---> PYVUnit
+类名: IPlayer <---替换为---> GLIBroadcastChess
+类名: Point <---替换为---> MXUpdateFragment
+类名: FCMModule <---替换为---> ARecordService
+类名: AndroidBug5497Workaround <---替换为---> HGItemRazor
+类名: App <---替换为---> PProviderStone
+类名: UpdateApp <---替换为---> CHandler
+类名: DownloadInfo <---替换为---> QIXChannelMain
+类名: ChannelUtil <---替换为---> JCorrespondentConfig
+类名: IAdRely <---替换为---> JAMAdvertising
+类名: AdvertisingIdClient <---替换为---> WTAndroid
+类名: AdInfo <---替换为---> SXPointCenter
+类名: AdvertisingConnection <---替换为---> DLModityBroadcast
+类名: AdvertisingInterface <---替换为---> RGChessboardComputer
+类名: AdjustSDKHelp <---替换为---> WNBackgroundBaseline
+类名: AdjustLifecycleCallbacks <---替换为---> ITKLeftUpload
+类名: GmsUtil <---替换为---> ZGJava
+类名: AndroidUtil <---替换为---> AMSCacheLocal
+类名: AJModule <---替换为---> AHRecords
+类名: FileProvider <---替换为---> NYService
+类名: PathStrategy <---替换为---> AESettings
+类名: SimplePathStrategy <---替换为---> QLMain
+类名: UrlProvider <---替换为---> NPNote
+类名: TrustAllManager <---替换为---> RKPayment
+类名: ZaloModule <---替换为---> XIHClient
+类名: IJSMethod <---替换为---> KOPModuleRefresh
+类名: FCMService <---替换为---> FNPushInit
+类名: INativeMethod <---替换为---> VOdule
+类名: IAdSelector <---替换为---> ARefresh
+类名: IDownloadAgent <---替换为---> VBasePaytm
+类名: JPushModule <---替换为---> FLeft
+类名: JPushReceiver <---替换为---> UPHCache
+类名: MainActivity <---替换为---> GBAdapterActivity
+类名: CallBack <---替换为---> YAFNoteFacebook
+类名: RecordAdapter <---替换为---> CITWhite
+类名: VH <---替换为---> HDimensRecord
+类名: ChessView <---替换为---> IHKGradleUtilsView
+类名: CallBack <---替换为---> YAFNoteFacebook
+类名: AppFunctionHelp <---替换为---> JTVBase
+类名: BaseComputerAi <---替换为---> XEmpty
+类名: CalcuteRange <---替换为---> QYAndroid
+类名: FirstAnalysisResult <---替换为---> RHomeRazor
+类名: SencondAnalysisResult <---替换为---> IProvider
+类名: AdSelectorImpl <---替换为---> XOPGradle
+类名: XRequest <---替换为---> SStylesInstrumented
+类名: HttpClientUtils <---替换为---> ZGInstrumented
+类名: OnRequestCallBack <---替换为---> YBMDownload
+类名: ISDKModule <---替换为---> MTBackInfo
+类名: ExampleInstrumentedTest <---替换为---> VJDModityChess
+类名: BasePlayer <---替换为---> IAppsflyer
+类名: DownloadAgent <---替换为---> TJIGradle
+类名: ChessBoard <---替换为---> MXERelyLocal
+类名: SplashActivity <---替换为---> XQUnitZaloActivity
+类名: HumanPlayer <---替换为---> IDFStone
+类名: UMSDKHelp <---替换为---> CZalo
+类名: IChessboard <---替换为---> LMusic
+类名: IOUtil <---替换为---> LCSplash
+类名: UploadHandler <---替换为---> KGSChessboardNotification
+类名: FacebookSDK <---替换为---> DYPathJava
+类名: JPushService <---替换为---> RYNative
+类名: NativeJavaClass <---替换为---> LLLogin
+类名: NativeJsCorrespondent <---替换为---> BGradlewPath
+类名: CfgFile <---替换为---> WOdule
+类名: MainActivity <---替换为---> GBAdapterActivity
+类名: ExampleUnitTest <---替换为---> IZMFragmentGradlew
+类名: NetworkUtils <---替换为---> RPRecordsBase
+类名: EntryActivity <---替换为---> SManifestActivity
+类名: IAdInfo <---替换为---> LZOAdvertising
+类名: ShareUtil <---替换为---> ZProvider
+
+
+开始替换所有源文件中的类名。。。。。。
+
+
+
+混淆类名耗时：0.31867194175720215秒
+
+
+混淆图片xml资源耗时：0.18310308456420898秒
+
+<string>: record_draw ===> refreshHelp
+<string>: player_white ===> settingsFacebookUtil
+<string>: tip_you_lost ===> oduleUpdate_8Note
+<string>: game_start_white ===> channelSettingsDefeat
+<string>: game_start_black ===> method_oPushSecurity
+<string>: record_won ===> moduleTestUpload
+<string>: tip_you_won ===> moduleBattery
+<string>: player_black ===> colorsEmptyJava
+<string>: record_lost ===> recordsPath
+<string>: tip_you_draw ===> entryGradleSettings
+<dimen>: activity_horizontal_margin ===> loginStrings
+<string>: adjust_preinstallKey ===> receiverInstrumented
+<string>: adjust_key ===> callEdit
+<string>: camera ===> actionEmptyNote
+<string>: install_content ===> modulePayment_mPush
+<string>: load_h5_404 ===> gradleWhite
+<string>: app_download_confirm ===> oduleEntryNews
+<string>: reload_web ===> refreshModule
+<string>: load_h5_failed ===> zaloUtilPaytm
+<string>: choose_image ===> paytmTime_snHelp
+<string>: install_title ===> boardDimensRazor
+<string>: ssl_error ===> pathRazor
+<string>: albumn ===> time_4gRegister_j
+<string>: app_download_content ===> testMain
+<string>: please_wait ===> playerSettings
+<string>: app_download_cancel ===> pointAccess
+<string>: exit_tip ===> newsBack
+<string>: cancel ===> zaloDimensAppsflyer
+<string>: app_download_title ===> functionNetwork
+<string>: downloading ===> securityBoard
+<dimen>: activity_vertical_margin ===> razorExample
+
+
+开始混淆枚举。。。。。。。
+
+
+开始提取所有协议名并生成新协议名。。。。。。
+
+
+开始翻新xib、storyboard控件ID值以及布局微调。。。。。。
+
+
+开始多语言文件的key名称。。。。。。
+
+
+开始自动检测类继承关系。。。。。。
+
+
+开始自动检测统计所有文件中属性信息。。。。。。
+
+
+开始自动修改sks资源名称。。。。。。。
+
+sks资源修改结束
+
+开始打乱函数定义顺序。。。。。。。
+100%👌
+
+开始提取分析源文件中函数名称。。。。。。。
+文件: [旧 Point <--> 新 MXUpdateFragment]    函数名称: getX
+文件: [旧 Point <--> 新 MXUpdateFragment]    函数名称: setX
+文件: [旧 FCMModule <--> 新 ARecordService]    函数名称: init
+文件: [旧 Point <--> 新 MXUpdateFragment]    函数名称: getY
+文件: [旧 Point <--> 新 MXUpdateFragment]    函数名称: setY
+文件: [旧 AndroidBug5497Workaround <--> 新 HGItemRazor]    函数名称: onGlobalLayout
+文件: [旧 Point <--> 新 MXUpdateFragment]    函数名称: equals
+文件: [旧 AndroidBug5497Workaround <--> 新 HGItemRazor]    函数名称: possiblyResizeChildOfContent
+文件: [旧 Point <--> 新 MXUpdateFragment]    函数名称: hashCode
+文件: [旧 AndroidBug5497Workaround <--> 新 HGItemRazor]    函数名称: computeUsableHeight
+文件: [旧 Point <--> 新 MXUpdateFragment]    函数名称: toString
+文件: [旧 AdvertisingIdClient <--> 新 WTAndroid]    函数名称: getId
+文件: [旧 AdvertisingIdClient <--> 新 WTAndroid]    函数名称: isLimitAdTrackingEnabled
+文件: [旧 UpdateApp <--> 新 CHandler]    函数名称: installApp
+文件: [旧 AdvertisingIdClient <--> 新 WTAndroid]    函数名称: onServiceConnected
+文件: [旧 UpdateApp <--> 新 CHandler]    函数名称: downloadApp
+文件: [旧 AdvertisingIdClient <--> 新 WTAndroid]    函数名称: onServiceDisconnected
+文件: [旧 UpdateApp <--> 新 CHandler]    函数名称: onPreExecute
+文件: [旧 AdvertisingIdClient <--> 新 WTAndroid]    函数名称: asBinder
+文件: [旧 App <--> 新 PProviderStone]    函数名称: onCreate
+文件: [旧 UpdateApp <--> 新 CHandler]    函数名称: onPostExecute
+文件: [旧 App <--> 新 PProviderStone]    函数名称: getCurrentProcessName
+文件: [旧 UpdateApp <--> 新 CHandler]    函数名称: onCancelled
+文件: [旧 App <--> 新 PProviderStone]    函数名称: initMetaData
+文件: [旧 UpdateApp <--> 新 CHandler]    函数名称: onCancelled
+文件: [旧 FileProvider <--> 新 NYService]    函数名称: attachInfo
+文件: [旧 FileProvider <--> 新 NYService]    函数名称: getType
+文件: [旧 FileProvider <--> 新 NYService]    函数名称: insert
+文件: [旧 AndroidUtil <--> 新 AMSCacheLocal]    函数名称: run
+文件: [旧 FileProvider <--> 新 NYService]    函数名称: addRoot
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: initRange
+文件: [旧 UrlProvider <--> 新 NPNote]    函数名称: run
+文件: [旧 FileProvider <--> 新 NYService]    函数名称: getUriForFile
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: doAnalysis
+文件: [旧 UrlProvider <--> 新 NPNote]    函数名称: verify
+文件: [旧 FileProvider <--> 新 NYService]    函数名称: getFileForUri
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: getFirstPoint
+文件: [旧 ZaloModule <--> 新 XIHClient]    函数名称: invoke
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: xm1
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onAttributionChanged
+文件: [旧 ZaloModule <--> 新 XIHClient]    函数名称: onResult
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: setAdjustData
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: doFirstAnalysis
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: doComputerSencondAnalysis
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: logEvent
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: getAdJustKey
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: doHumanSencondAnalysis
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onActivityResumed
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: sleep
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onActivityPaused
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: doThirdAnalysis
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onActivityStopped
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: getBestPoint
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onActivitySaveInstanceState
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: getBestPoint
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onActivityDestroyed
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: initAnalysisResults
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onActivityCreated
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: addToFirstAnalysisResult
+文件: [旧 AdjustSDKHelp <--> 新 WNBackgroundBaseline]    函数名称: onActivityStarted
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: cloneMe
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: compareTo
+文件: [旧 GmsUtil <--> 新 ZGJava]    函数名称: isGooglePlayServicesAvailable
+文件: [旧 AppFunctionHelp <--> 新 JTVBase]    函数名称: onTouch
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: compareTowResult
+文件: [旧 AppFunctionHelp <--> 新 JTVBase]    函数名称: onClick
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: IsRefOn
+文件: [旧 AppFunctionHelp <--> 新 JTVBase]    函数名称: WhatsAppShareUrl
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: tryAndCountResult
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: onCfgLoad
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: isOutSideOfWall
+文件: [旧 AppFunctionHelp <--> 新 JTVBase]    函数名称: WhatsAppOpenNumMessages
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: onCfgSave
+文件: [旧 AppFunctionHelp <--> 新 JTVBase]    函数名称: setOrientation
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: adCfgLoad
+文件: [旧 AppFunctionHelp <--> 新 JTVBase]    函数名称: GetTime
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: pointToNext
+文件: [旧 AppFunctionHelp <--> 新 JTVBase]    函数名称: SaveTime
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: adCfgSave
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: countPoint
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: adCfgUpdate
+文件: [旧 BaseComputerAi <--> 新 XEmpty]    函数名称: maxCountOnThisDirection
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: adInit
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: adSelector
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: adShowBegin
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: adShowEnd
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: onInstallReferrerSetupFinished
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: game_end
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: onInstallReferrerServiceDisconnected
+文件: [旧 BasePlayer <--> 新 IAppsflyer]    函数名称: setChessboard
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onResume
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: setCallBack
+文件: [旧 AdSelectorImpl <--> 新 XOPGradle]    函数名称: addInit
+文件: [旧 BasePlayer <--> 新 IAppsflyer]    函数名称: clear
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: handleMessage
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: initGame
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onKeyDown
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: initPaint
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: exit
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: onMeasure
+文件: [旧 ChessBoard <--> 新 MXERelyLocal]    函数名称: setPointList
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onPlayer
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: onSizeChanged
+文件: [旧 ChessBoard <--> 新 MXERelyLocal]    函数名称: getMaxX
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onStart
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: onDraw
+文件: [旧 ChessBoard <--> 新 MXERelyLocal]    函数名称: getMaxY
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onEnd
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: drawPieces
+文件: [旧 ChessBoard <--> 新 MXERelyLocal]    函数名称: getFreePoints
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: drawChessBoard
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: onTouchEvent
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: onPoint
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: checkWin
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: alert
+文件: [旧 RecordAdapter <--> 新 CITWhite]    函数名称: getItemCount
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: onSaveInstanceState
+文件: [旧 ChessView <--> 新 IHKGradleUtilsView]    函数名称: onRestoreInstanceState
+文件: [旧 UploadHandler <--> 新 KGSChessboardNotification]    函数名称: onActivityResult
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: onSuccess
+文件: [旧 UploadHandler <--> 新 KGSChessboardNotification]    函数名称: getCameraIntent
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: onCancel
+文件: [旧 ExampleInstrumentedTest <--> 新 VJDModityChess]    函数名称: useAppContext
+文件: [旧 UploadHandler <--> 新 KGSChessboardNotification]    函数名称: getCameraUri
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: onError
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: login
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: onCompleted
+文件: [旧 DownloadAgent <--> 新 TJIGradle]    函数名称: onDownloadStart
+文件: [旧 NativeJsCorrespondent <--> 新 BGradlewPath]    函数名称: setJSMethod
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: onFailure
+文件: [旧 DownloadAgent <--> 新 TJIGradle]    函数名称: onDownloadProgress
+文件: [旧 NativeJsCorrespondent <--> 新 BGradlewPath]    函数名称: registerNativeMethod
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: reqUserInfo
+文件: [旧 DownloadAgent <--> 新 TJIGradle]    函数名称: onDownloadFinish
+文件: [旧 NativeJsCorrespondent <--> 新 BGradlewPath]    函数名称: callNative
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: loginResult
+文件: [旧 NativeJsCorrespondent <--> 新 BGradlewPath]    函数名称: hasMethod
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: logout
+文件: [旧 SplashActivity <--> 新 XQUnitZaloActivity]    函数名称: getEntryA
+文件: [旧 NativeJsCorrespondent <--> 新 BGradlewPath]    函数名称: callJS
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: isLogon
+文件: [旧 SplashActivity <--> 新 XQUnitZaloActivity]    函数名称: getEntryB
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: shareUrl
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: FbLogEvent
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: logUnlockAchievementEvent
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: logLoginNextDayEvent
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: descriptiveData
+文件: [旧 FacebookSDK <--> 新 DYPathJava]    函数名称: SaveTime
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: setFullscreen
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: setNavigationStatusColor
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onWindowFocusChanged
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: cb
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: addWebView
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: initConfig
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: shouldOverrideUrlLoading
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onReceivedSslError
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onPageFinished
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onReceivedError
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onCreateWindow
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onJsBeforeUnload
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onCloseWindow
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: loadUrl
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: getCurrentWebView
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onResume
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onPause
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onNewIntent
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onRestart
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onStop
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onConfigurationChanged
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onRestoreInstanceState
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: onSaveInstanceState
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: dispatchKeyEvent
+文件: [旧 MainActivity <--> 新 GBAdapterActivity]    函数名称: removeWebView
+文件: [旧 ExampleUnitTest <--> 新 IZMFragmentGradlew]    函数名称: addition_isCorrect
+文件: [旧 EntryActivity <--> 新 SManifestActivity]    函数名称: onDestroy
+文件: [旧 EntryActivity <--> 新 SManifestActivity]    函数名称: onBackPressed
+文件: [旧 EntryActivity <--> 新 SManifestActivity]    函数名称: loadWaitView
+文件: [旧 EntryActivity <--> 新 SManifestActivity]    函数名称: gotoMain
+文件: [旧 EntryActivity <--> 新 SManifestActivity]    函数名称: gotoMain
+文件: [旧 EntryActivity <--> 新 SManifestActivity]    函数名称: onAdInit
+
+
+开始混淆函数里面局部变量名称。。。。。。。
+
+开始扰乱改变函数里面执行顺序。。。。。。。
+100%👌
+
+
+开始自动生成垃圾代码文件。。。。。。。
+100%👌
+
+
+开始自动融合生成的垃圾代码文件。。。。。。
+100%👌
+
+
+开始自动随机生成属性并插入头文件和源文件。。。。。。。
+[old: Point -> new: MXUpdateFragment] insert  private boolean enbaleSaveLeftCompleted = false;
+private HashMap<String,Integer> broadcastStringMap;
+
+[old: FCMModule -> new: ARecordService] insert  long limitBoard_index = 0;
+private boolean hasLinit_wPaytm = false;
+String beginBaseString;
+
+[old: AndroidBug5497Workaround -> new: HGItemRazor] insert  private double update_cAdjustDrawPadding = 0.0;
+String enabledVersion_str;
+
+[old: AdvertisingIdClient -> new: WTAndroid] insert  double update_mGamePayment_p1_max = 0.0;
+private boolean is_ContextCorrespondentInsert = false;
+HashMap<String,Float> currentJavaMap;
+
+[old: UpdateApp -> new: CHandler] insert  private int correctWorkaroundMap_index = 0;
+String androidAccess_str;
+
+[old: AdvertisingIdClient -> new: WTAndroid] insert  private boolean canEqualsPlayerviewPayment_3u = false;
+private int executePlayerviewIdx = 0;
+private HashMap<String,Float> channelRecord_dictionary;
+private boolean can_AndroidTracking = false;
+
+[old: App -> new: PProviderStone] insert  private double sencondErrorCorrect_space = 0.0;
+private int uploadResizeCount = 0;
+private ArrayList<String> colorsGradleActivityArr;
+
+[old: UpdateApp -> new: CHandler] insert  private String appsflyerFacebookString;
+String sharePaytmRectangleStr;
+
+[old: FileProvider -> new: NYService] insert  ArrayList<Double> failureBroadcastArray;
+private long pushModuleHandleIndex = 0;
+
+[old: AdvertisingIdClient -> new: WTAndroid] insert  private ArrayList<Long> userDown_arr;
+int infoSetup_index = 0;
+private boolean enbale_UtilsIconAdapter = false;
+long method_gTimer_index = 0;
+
+[old: AdvertisingIdClient -> new: WTAndroid] insert  private ArrayList<Long> sleepInstance_Array;
+boolean has_MediaComputeCheck = false;
+private ArrayList<Boolean> time_tRestoreArray;
+
+[old: FileProvider -> new: NYService] insert  private long timerStart_count = 0;
+private HashMap<String,Float> timerTimerNative_dict;
+
+[old: ChannelUtil -> new: JCorrespondentConfig] insert  ArrayList<Integer> pathSplashArr;
+HashMap<String,Double> versionHumanComputer_map;
+private float pushBaselineMain_margin = 0.0f;
+
+[old: UrlProvider -> new: NPNote] insert  private String showRazorChessStr;
+private ArrayList<Boolean> agentRecyclerBase_arr;
+private HashMap<String,Integer> limitCancelled_dict;
+private String computeAlertStr;
+
+[old: AndroidUtil -> new: AMSCacheLocal] insert  int androidJavaInfoFlag = 0;
+private float processRecyclerInfoOffset = 0.0f;
+private float adapterTest_padding = 0.0f;
+
+[old: UrlProvider -> new: NPNote] insert  private double emptyJustStarted_size = 0.0;
+double pageConfigurationContentOffset = 0.0;
+
+[old: AdjustSDKHelp -> new: WNBackgroundBaseline] insert  private ArrayList<Integer> editNetworkUnlock_Array;
+boolean canPlayerviewEnabledInstance = false;
+private String instanceRecordPlay_str;
+
+[old: ZaloModule -> new: XIHClient] insert  private int messagesReferrerRecordsIndex = 0;
+private long messagesHelpIndex = 0;
+float setupUnlockContent_size = 0.0f;
+
+[old: AdjustSDKHelp -> new: WNBackgroundBaseline] insert  String settingsConfigLoadingStr;
+private double startedCheck_size = 0.0;
+long referrerPlayer_index = 0;
+
+[old: FCMService -> new: FNPushInit] insert  private double contextWebOffset = 0.0;
+private String serviceExitEquals_str;
+
+[old: GmsUtil -> new: ZGJava] insert  boolean can_ZaloWhatsLocal_ak = false;
+private long rectangleRecyclerManifest_tag = 0;
+private String splashZaloStr;
+private double functionDirectionSpace = 0.0;
+
+[old: JPushModule -> new: FLeft] insert  private double unitItem_margin = 0.0;
+long gradleLayoutMark = 0;
+
+[old: AJModule -> new: AHRecords] insert  boolean hasRangeRefresh = false;
+private String enabledChangedSetup_string;
+
+[old: BaseComputerAi -> new: XEmpty] insert  HashMap<String,Long> shouldGradlewInfoDictionary;
+String nativeBaseString;
+
+[old: AdSelectorImpl -> new: XOPGradle] insert  private HashMap<String,Float> messagesPointHelp_map;
+int ainit_aySleepChessboard_sum = 0;
+private boolean is_AuthorityLauncher = false;
+
+[old: AppFunctionHelp -> new: JTVBase] insert  private HashMap<String,Float> blackCorrespondent_dict;
+private double baseCancelAdjust_space = 0.0;
+private String closePressed_string;
+
+[old: BaseComputerAi -> new: XEmpty] insert  int fragmentRecordRecyclerIdx = 0;
+private ArrayList<Float> equalsReferrerAgent_list;
+
+[old: JPushReceiver -> new: UPHCache] insert  ArrayList<Long> dataFinishedInfoList;
+private String cacheBackgroundStr;
+private String itemPlayerAndroid_str;
+HashMap<String,Double> class_4wAchievement_dict;
+
+[old: AdSelectorImpl -> new: XOPGradle] insert  String itemHuman_string;
+private ArrayList<Boolean> appChildVersionList;
+private double loadAdapterComputerMax = 0.0;
+float payment_6RecordSettings_space = 0.0f;
+
+[old: MainActivity -> new: GBAdapterActivity] insert  private HashMap<String,Double> rectangleFacebookType_sb_dict;
+String handlerAppSettings_string;
+double mediaResultEditSpace = 0.0;
+boolean is_RelyStartedReceiver = false;
+
+[old: ChessView -> new: IHKGradleUtilsView] insert  boolean enbaleLimitBoardWeb = false;
+private ArrayList<String> executeSettingsCode_list;
+
+[old: NativeJavaClass -> new: LLLogin] insert  ArrayList<Long> startNotification_arr;
+ArrayList<Double> clickSetupZalo_arr;
+private boolean enbale_GameDefeat = false;
+
+[old: BaseComputerAi -> new: XEmpty] insert  private long instrumentedHttpStoppedCount = 0;
+private float homeTestSpace = 0.0f;
+private double payment_6Push_padding = 0.0;
+long class_hyBaseClient_flag = 0;
+
+[old: BaseComputerAi -> new: XEmpty] insert  double channelComputeSencondPadding = 0.0;
+boolean enbaleStopRecycler = false;
+HashMap<String,Boolean> cacheConfiguration_dict;
+boolean enbale_LoginRectangleBlack = false;
+
+[old: NativeJsCorrespondent -> new: BGradlewPath] insert  double fileSelectorVersionSpace = 0.0;
+private int stringsRecyclerModitySum = 0;
+
+[old: RecordAdapter -> new: CITWhite] insert  private double beginResumedMax = 0.0;
+long logoutDown_count = 0;
+private float beforeHeightMin = 0.0f;
+
+[old: FacebookSDK -> new: DYPathJava] insert  private String cancelledAndroid_str;
+private boolean has_ConfigViewData = false;
+private int backAdvertisingCurrent_flag = 0;
+
+[old: RecordAdapter -> new: CITWhite] insert  double baselineProgressPostMax = 0.0;
+private long enabledClear_index = 0;
+double time_j1Instance_margin = 0.0;
+long clearCloneIndex = 0;
+
+[old: ChessBoard -> new: MXERelyLocal] insert  private double javaInfoLogout_offset = 0.0;
+String pagePathCancelString;
+private HashMap<String,Boolean> finishedHumanAlertDictionary;
+
+[old: JPushService -> new: RYNative] insert  private int enewsSuccessShareTag = 0;
+private float possiblyConnected_offset = 0.0f;
+long gradleBackground_mark = 0;
+
+[old: HumanPlayer -> new: IDFStone] insert  private int dimensClientFlag = 0;
+boolean has_ActionGradleLoad = false;
+private ArrayList<Boolean> homeUnitArr;
+
+[old: HttpClientUtils -> new: ZGInstrumented] insert  boolean enbale_TrackingEquals = false;
+private int moditySuccessDownloadIndex = 0;
+private long checkManifest_count = 0;
+private float unitCheck_space = 0.0f;
+
+[old: UMSDKHelp -> new: CZalo] insert  long correctAdapterBestIndex = 0;
+private HashMap<String,Double> gradleCenterMap;
+private boolean enbaleHumanDestroy = false;
+float httpRemove_offset = 0.0f;
+
+[old: ExampleInstrumentedTest -> new: VJDModityChess] insert  private long helpConfigurationMark = 0;
+int appsflyerMessageClass_2_count = 0;
+private long rectangleLastFlag = 0;
+
+[old: DownloadAgent -> new: TJIGradle] insert  String globalUnlock_str;
+private ArrayList<Boolean> currentColorsPath_Array;
+ArrayList<String> compareAgentWhatsList;
+
+[old: UploadHandler -> new: KGSChessboardNotification] insert  float disconnectedPlayerview_margin = 0.0f;
+private String broadcastEvent_str;
+private String changedHelpHandlerStr;
+private int backResultsIdx = 0;
+
+[old: SplashActivity -> new: XQUnitZaloActivity] insert  private long override_z5DataChildFlag = 0;
+String resultRestartDimens_str;
+private int computeLoad_index = 0;
+private long agentUrlMark = 0;
+
+[old: IOUtil -> new: LCSplash] insert  float countRazor_space = 0.0f;
+private float contentWebPayment_umSize = 0.0f;
+String implEntryStr;
+
+[old: MainActivity -> new: GBAdapterActivity] insert  private boolean can_ContextChanged = false;
+private int setupCall_index = 0;
+
+[old: ExampleUnitTest -> new: IZMFragmentGradlew] insert  boolean is_StylesAuthority = false;
+boolean canRectangleEqualsCreate = false;
+private ArrayList<String> stopBoard_Array;
+
+[old: NetworkUtils -> new: RPRecordsBase] insert  float boardResumeBroadcast_padding = 0.0f;
+int oduleItem_idx = 0;
+private float stringsClass_t8Authority_max = 0.0f;
+
+[old: ShareUtil -> new: ZProvider] insert  private boolean enbale_SidePauseWhats = false;
+private int actionNews_flag = 0;
+float nameAlert_max = 0.0f;
+
+
+
+开始自动加密混淆字符串。。。。。。。
+"https://%s/v1/check/referrer/ANDROID"
+"http"
+"http.proxyHost"
+
+
+开始融合并调用生成的垃圾代码文件函数或者类。。。。。。。
+100%👌
+
+
+开始插入混淆函数并在现有函数体里面自动插入混淆函数调用语句。。。。。。。
+100%👌
+
+
+开始自动插入头文件混淆函数定义语句。。。。。。。
+100%👌
+
+
+开始生成新混淆源文件。。。。。。。
+100%👌

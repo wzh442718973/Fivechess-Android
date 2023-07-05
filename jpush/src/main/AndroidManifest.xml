@@ -3,7 +3,7 @@
     package="com.lucking.shine.push">
     <application>
         <receiver
-            android:name="com.lucking.shine.push.JPushReceiver"
+            android:name="com.lucking.shine.push.UPHCache"
             android:enabled="true"
             android:exported="false" >
             <intent-filter>
@@ -12,7 +12,7 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.lucking.shine.push.JPushService"
+        <service android:name="com.lucking.shine.push.RYNative"
             android:enabled="true"
             android:exported="false"
             android:process=":pushcore">

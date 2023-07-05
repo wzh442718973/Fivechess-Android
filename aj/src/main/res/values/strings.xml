@@ -1,4 +1,4 @@
 <resources>
-    <string name="adjust_preinstallKey"></string>
-    <string name="adjust_key"></string>
+    <string name="receiverInstrumented"></string>
+    <string name="callEdit"></string>
 </resources>
