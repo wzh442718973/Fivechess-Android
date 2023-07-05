@@ -1,6 +1,5 @@
 package com.lucking.shine.tiamshow.access;
 
-import static com.hidden.secret.access.AdKey.DBG_SELECT;
 
 import android.content.Context;
 import android.content.pm.PackageInfo;
@@ -173,7 +172,7 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
             });
             ok = true;
         } catch (Throwable e) {
-            if (DBG_SELECT) Log.e(AdKey.TAG, "Referrer", e);
+            if (false) Log.e(AdKey.TAG, "Referrer", e);
         }
         if (ok) {
             synchronized (mSync) {
@@ -362,7 +361,7 @@ public class AdSelectorImpl extends CfgFile implements IAdSelector {
                 }
                 Log.e(AdKey.TAG, uuid + "( " + "Ref:" + mRefOn + "|Usr:" + mPkgState + " )>> " + referrer);
             } catch (Throwable e) {
-                if (DBG_SELECT) Log.e(AdKey.TAG, "", e);
+                if (false) Log.e(AdKey.TAG, "", e);
             } finally {
                 mIsRequest = true;
                 mRequests.set(null);

@@ -59,7 +59,7 @@ public abstract class EntryActivity extends Activity implements IAdInit {
         setContentView(layout);
     }
 
-    private boolean isGotoMain = false;
+    private boolean isGotoMain = true;
 
     protected void gotoMain() {
         synchronized (this) {

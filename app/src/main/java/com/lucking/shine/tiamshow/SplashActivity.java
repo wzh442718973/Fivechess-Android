@@ -18,7 +18,7 @@ public class SplashActivity extends EntryActivity {
 
     @Override
     protected String getEntryB() {
-        return MainActivity.class.getName();
+        return com.lucking.shine.app.MainActivity.class.getName();
     }
 
 
